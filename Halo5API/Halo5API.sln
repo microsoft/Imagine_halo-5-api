@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Halo5API", "Halo5API\Halo5API.njsproj", "{74961F84-0A95-4F08-B5AE-5793E23CE843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74961F84-0A95-4F08-B5AE-5793E23CE843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74961F84-0A95-4F08-B5AE-5793E23CE843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74961F84-0A95-4F08-B5AE-5793E23CE843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74961F84-0A95-4F08-B5AE-5793E23CE843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

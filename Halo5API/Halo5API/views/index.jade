@@ -1,0 +1,29 @@
+﻿extends layout
+
+block content
+  .text-center
+    .titlebar
+      h1 #{title}
+    .titledivider
+      .titleimage
+    .row.row-centered
+      .col-md-6.col-centered
+        form.form-inline
+          label.h3(for=selectGameMode) Search in Game Mode: 
+            #select-gamemode.form-control
+              select#selectGameMode
+                option(value="arena") Arena
+                option(value="campaign") Campaign
+                option(value="custom") Custom
+                option(value="warzone") Warzone
+        .form-group.input-group
+          span.input-group-addon.search-label Match ID:
+          input#txtMatchID.form-control.search-input(type="text", placeholder="Match ID", value="2f01d51f-88c2-4ad6-ac9c-bf8fdefc3f96")
+          span.input-group-btn
+            button#btnSearchMatchID.btn.btn-default.search-button(type="button") Go!
+        .form-group.input-group
+          span.input-group-addon.search-label Gamertag:
+          input#txtGamertag.form-control.search-input(type="text", placeholder="Gamertag", value="Strongside")
+          span.input-group-btn
+            button#btnSearchGamertag.btn.btn-default.search-button(type="button") Go!
+    #content
